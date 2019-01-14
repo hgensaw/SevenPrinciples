@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Economica|Major+Mono+Display|Orbitron|Monoton|VT323|Jura');
+
+body{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  /* color: rgba(77, 160, 255, 1); */
+  background-color: #000000;
+  line-height: 400%;
+
+}
+
+::selection {
+  color: blue;
+}
+
+.all{
+  padding: 200px 5% 15em;
+}
+p:nth-child(2n) {
+  text-align: right;
+}
+
+.chorus{
+  color: rgb(0, 204 ,204);
+  font-size: 1.5em;
+  text-shadow: 4px 5px 0 rgba(215, 44, 44, 0.4),
+               -2px -3px 0 rgba(220, 255, 0, 0.5),
+               -4px 4px 0 rgba(0, 255, 0, 0.5),
+               4px -5px 0 rgba(0, 255, 225, 0.4);
+  text-align: center;
+  padding: 3em;
+  font-family: 'VT323', monospace;
+  line-height: 400%;
+  transform: rotate(10deg);
+  text-transform: uppercase;
+  -webkit-animation: mymove .2s infinite;
+  animation-direction: reverse;
+
+}
+
+.pre-chorus{
+  line-height: 1;
+  font-size: 1.5em;
+  font-family: 'VT323', monospace;
+  color: white;
+  opacity: 0.6;
+  text-shadow: none;
+  text-align: left;
+  -webkit-animation: mymove .8s infinite;
+  animation-direction: alternate;
+}
+div.pre-chorus > p:hover, div.pre-chorus > p:active {
+  color: #000000;
+}
+div.twoV > p:hover, div.twoV > p:active {
+  color: #000000;
+}
+span.blue:hover, span.blue:active {
+  color: #000000;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 5px 7px 0 rgba(215, 44, 44, 0.4),
+               -1px -3px 0 rgba(220, 255, 0, 0.3),
+               -4px 5px 0 rgba(0, 255, 0, 0.4),
+                4px -5px 0 rgba(0, 255, 225, 0.4);
+  }
+}
+.twoV{
+  line-height: 1;
+  text-align: left;
+  font-size: 1.5em;
+  font-family: 'VT323', monospace;
+  color: rgba(0, 204 ,204 , 0.7);
+   text-shadow: 4px 5px 0 rgba(215, 44, 44, 0.4),
+                -2px -3px 0 rgba(220, 255, 0, 0.5),
+                -4px 4px 0 rgba(0, 255, 0, 0.5);
+  -webkit-animation: mymove .5s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.blue {
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  color: #fff;
+  line-height: 300%;
+  z-index: -1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20%;
+  display: block;
+  margin-top: -2em;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 5s ease-in-out infinite alternate;
+  transform: rotate(-10deg);
+}
+span.blue:hover, span.blue:active {
+  color: #000000;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #3700b8, 0 0 20px #3700b8, 0 0 25px #3700b8, 0 0 30px #3700b8, 0 0 35px #3700b8;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 35px #0075fa, 0 0 50px #0075fa, 0 0 65px #0075fa, 0 0 80px #0075fa, 0 0 95px #0075fa, 0 0 110px #0075fa;
+  }
+}
+
+.emph{
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  color: #000000;
+  opacity: 1;
+  border-color: #000000;
+  border-style: solid;
+  text-decoration: line-through;
+  text-decoration-color: #ffffff;
+  padding: 0 0.5em 0 0.5em;
+  margin: 0 1em 0 1em;
+  -webkit-animation: mymove 10s infinite;
+  animation-direction: alternate-reverse;
+}
+
+
+
+span.emph:hover, span.emph:active {
+  color: red;
+  text-decoration: none;
+  border-style: none;
+  padding: 0 0.5em 0 0.5em;
+  margin: 0 1em 0 1em;
+  border-color: #000000;
+  border-style: solid;
+  animation: none;
+}
+/* @-webkit-keyframes mymove {
+  20% {text-shadow: 2em 3em 4em red;}
+} */
+
+
+
+
+/* #3700b8
+#0075fa */
+  /* font-family: 'Abel', sans-serif; */
+  /* font-family: 'Major Mono Display', monospace; */
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Economica', sans-serif;
+  font-family: 'Monoton', cursive; (extra lined one)
+  font-family: 'VT323', monospace; (pixelated)
+  font-family: 'Jura', sans-serif;(nice)*/

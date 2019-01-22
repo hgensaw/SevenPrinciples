@@ -1,0 +1,367 @@
+@import "compass/css3";
+
+body{
+  display: grid;
+  grid-template-columns: auto 50px
+  background: #a33f24;
+  margin: none;
+  width: 1200px;
+  font-size: 20px;
+  padding: none;
+
+}
+
+.text{
+  display: grid;
+  grid-template-columns: 0.25 0.25 0.25 0.25
+}
+
+.cont{
+  /* display: flex; */
+  background-color: #a33f24;
+  width: 100%;
+  height: 46em;
+  position: relative;
+  overflow: hidden;
+  /* animation: fill 9s linear 2; */
+
+
+}
+
+.arcA {
+    z-index: 50;
+    background-color: #a33f24;
+    border: 6px solid #000;
+    display: block;
+    max-width: 100em;
+    min-height: 60em;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: transparent;
+    /*----positioning-----*/
+    position: absolute;
+    top: 100vh;
+    left: -280px;
+    width: inherit;
+    transform: rotate(0deg);
+    /*----animation-----*/
+    animation: fill 9s alternate 3;
+    animation: rota 9s alternate 3;
+    animation-delay: 9s;
+
+}
+.arcB {
+  z-index: 40;
+  background-color: #a33f24;
+  border: 6px solid #000;
+  display: block;
+  max-width: 29em;
+  min-height: 30em;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 92vh;
+  left: 290px;
+  width: 80%;
+  /*----adjusting-----*/
+  transform: rotate(-17deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  animation: rota 9s alternate 3;
+  animation-delay: 8s;
+}
+
+.arcC {
+  z-index: 30;
+  background-color: #a33f24;
+  border: 5.5px solid #000;
+  display: block;
+  max-width: 33em;
+  min-height: 38em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 85vh;
+  left: 40px;
+  width: 70%;
+  /*----adjusting-----*/
+  transform: rotate(20deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  /* animation: rota 9s alternate 3; */
+  animation-delay: 7s;
+
+
+}
+.arcD {
+  z-index: 25;
+  background-color: #a33f24;
+  border: 5px solid #000;
+  display: block;
+  max-width: 25em;
+  min-height: 30em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 80vh;
+  left: 340px;
+  width: 100%;
+  /*----adjusting-----*/
+  transform: rotate(-22deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  animation: rota 9s alternate 3;
+  animation-delay: 6s;
+
+
+}
+.arcE {
+  z-index: 20;
+  background-color: #a33f24;
+  border: 5px solid #000;
+  display: block;
+  max-width: 28em;
+  min-height: 30em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 76vh;
+  left: 130px;
+  width: 100%;
+  /*----adjusting-----*/
+  transform: rotate(35deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  animation: rota 9s alternate 3;
+  animation-delay: 5s;
+
+
+}
+.arcF {
+  z-index: 15;
+  background-color: #a33f24;
+  border: 4px solid #000;
+  display: block;
+  max-width: 26em;
+  min-height: 27em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 74vh;
+  left: 330px;
+  width: 100%;
+  /*----adjusting-----*/
+  transform: rotate(-35deg);
+  /*----animation-----*/
+  animation: fill 9s reverse 3;
+  /* animation: rota 9s alternate 3; */
+  animation-delay: 4s;
+
+
+}
+
+.arcG {
+  z-index: 10;
+  background-color: #a33f24;
+  border: 3.8px solid #000;
+  display: block;
+  max-width: 24em;
+  min-height: 26em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 70vh;
+  left: 220px;
+  width: 100%;
+  /*----adjusting-----*/
+  transform: rotate(47deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  animation: rota 9s alternate 3;
+  animation-delay: 3s;
+
+
+}
+
+.arcH {
+  z-index: 8;
+  background-color: #a33f24;
+  border: 3.5px solid #000;
+  display: block;
+  max-width: 19em;
+  min-height: 21em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 69.5vh;
+  left: 420px;
+  width: 90%;
+  /*----adjusting-----*/
+  transform: rotate(-41deg);
+  /*----animation-----*/
+  animation: fill 9s alternate 3;
+  animation: rota 9s alternate 3;
+  animation-delay: 2s;
+
+
+}
+.arcI {
+  z-index: 5;
+  background-color: #a33f24;
+  border: 3px solid #000;
+  display: block;
+  max-width: 15em;
+  min-height: 21em;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom: transparent;
+  /*----positioning-----*/
+  position: absolute;
+  top: 63vh;
+  left: 300px;
+  width: 90%;
+  /*----adjusting-----*/
+  transform: rotate(59deg);
+  /*----animation-----*/
+  animation: fill 9s reverse 3;
+  /* animation: rota 9s alternate 3; */
+  animation-delay: 1s;
+
+
+}
+div.direction {
+  animation-direction: alternate-reverse;
+}
+
+@keyframes rota {
+  0%   { transform: rotate(var(transform)); }
+  50%  {transform: rotate(360deg); }
+  100% { transform: rotate(var(transform)); }
+}
+
+@keyframes fill {
+  0% {background-color: #000000; }
+  100% {background-color: #a33f24; }
+}
+
+
+@media screen and (max-width: 100px) {
+	div {
+		width: 50%;
+}
+}
+/*
+.cont:hover .archA, .cont:hover .archB, .cont:hover .archC, .cont:hover .archD, .cont:hover .archE, .cont:hover .archF, .cont:hover .archG, .cont:hover .arcH, .cont:hover .archI,{
+  animation-duration: 2;
+} */
+
+
+
+/* colors
+#a33f24 -drak red
+#ab5e2b - dark ornage
+
+*/
+
+/*----SPINER----
+.wrapper {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: white;
+}
+.pie {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #000000;
+}
+.spinner {
+  border-radius: 125px 0 0 125px;
+  z-index: 200;
+  border-right: none;
+  animation: rota 10s linear infinite;
+}
+.filler {
+  border-radius: 0 125px 125px 0;
+  z-index: 100;
+  border-left: none;
+  animation: fill 10s steps(1, end) infinite;
+  left: 50%;
+  opacity: 0;
+}
+.mask {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 300;
+  opacity: 1;
+  background: inherit;
+  animation: mask 10s steps(1, end) infinite;
+}
+/* @keyframes rota {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fill {
+  0%        { opacity: 0; }
+  50%, 100% { opacity: 0; } /*used to be 1*/
+}
+/*
+@keyframes mask {
+  0%        { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.wrapper:hover .filler, .wrapper:hover .spinner, .wrapper:hover .mask {
+  animation-play-state: paused;
+}
+.spinner:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+}
+.animation-duration {
+  animation-duration: 10s;
+}
+----END---*/
+
+
+
+/* .circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+} */
